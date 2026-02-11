@@ -28,14 +28,23 @@ Designed for:
 ## 📂 Project Structure
 
 ml_api/
+
 ├── app/
+
 │   ├── main.py
+
 │   ├── schemas.py
+
 │   ├── model.py
+
 │   ├── service.py
+
 │   └── config.py
+
 ├── models/
+
 │   └── model.pkl
+
 └── requirements.txt
 
 ---
@@ -43,18 +52,27 @@ ml_api/
 ## 🧠 Architecture
 
 Client Request
+
 ↓
+
 FastAPI (main.py)
+
 ↓
+
 Pydantic Schema Validation
+
 ↓
+
 Service Layer
+
 ↓
+
 Model Inference
+
 ↓
+
 JSON Response
 
----
 
 This separation ensures:
 - Maintainability
